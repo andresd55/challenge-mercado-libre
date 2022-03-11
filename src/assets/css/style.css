@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-primary: #FFE600;
+  --color-secundary: #3483FA;
+  --color-black: #333333;
+  --color-gray: #666666;
+  --color-gray-light: #999999;
+  --bg-color: #EEEEEE;
+  /* Font/text values */
+  --unnamed-font-family-monserrat: Montserrat;
+  --unnamed-font-family-monserrat-condensed: Montserrat Condensed;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-300: 300px;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-17: 17px;
+  --unnamed-line-spacing-19: 19px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-22: 22px;
+  --unnamed-line-spacing-24: 24px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) / var(--unnamed-line-spacing-20) var(--unnamed-font-family-monserrat) !important;
+  line-height: 1.5;
+  color: var(--color-black);
+  text-align: left;
+  background-color: #fff;
+}
+
+.row {
+  width: 100%;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+.footer {
+  background: #FFFFFF;
+  padding: 15px 25px 15px;
+  border-top: 1px solid #e8ebf1;
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  font-size: calc(0.875rem - 0.05rem);
+  font-weight: 400;
+  margin-top: auto;
+}
+.footer a {
+  color: #0000ff;
+  font-size: inherit;
+}
+@media (max-width: 991px) {
+  .footer {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .footer {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+body {
+  color: var(--color-black) !important;
+  font-weight: 500 !important;
+  letter-spacing: -1px;
+}
+
+body,
+html {
+  padding-right: 0 !important;
+}
+
+body {
+  margin: 0;
+  color: #000;
+  text-align: left;
+  background-color: #f9fafb;
+  height: 100%;
+}
+
+*:-moz-full-screen,
+*:-webkit-full-screen,
+*:fullscreen *:-ms-full-screen {
+  overflow: auto;
+}
+
+.page-content, .breadcrumb, body {
+  background: var(--bg-color) !important;
+} 
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background: var(--color-primary);
+  border-bottom: 1px solid #f2f4f9;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  z-index: 978;
+  box-shadow: 3px 0 10px 0 rgba(183, 192, 206, 0.2);
+  transition: width 0.1s ease, left 0.1s ease;
+}
+@media (max-width: 991px) {
+  .navbar {
+    width: 100%;
+    left: 0;
+  }
+  .navbar .navbar-content {
+    width: calc(100% - 70px - 1px);
+  }
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+p {
+  margin-bottom: 2rem !important;
+  line-height: 1.3;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.td-content {
+  padding-top: 35px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.form-control {
+  color: var(--color-black) !important;
+}

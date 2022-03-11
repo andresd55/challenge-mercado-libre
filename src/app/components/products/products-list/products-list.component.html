@@ -1,0 +1,32 @@
+<p-breadcrumb
+  [model]="itemsBreadcrumb"
+></p-breadcrumb>
+
+<div class="div-products row" *ngFor="let product of products; let index = index; let last = last">
+  <div class="col-12 col-md-10 offset-md-1  pr-0">
+    <div class="ml-3 bg-white p-16 d-flex {{ index === 0 ? 'first-item' : (last ? 'last-item' : '' ) }}" >
+      <span>
+        <img width="180px" height="180px" src="{{product.image}}" class="img-product"
+        alt="Imagen del producto" (click)="viewProductDetail(product)" appImage />
+      </span>
+      <span>
+        <span class="p-item">
+          <p class="p-price mt-3">{{ '$ ' + (product.price | number :'':'es') }}
+            <span *ngIf="product.shipping" class="d-inline-block">
+                <img width="18px" height="18px" 
+                  class="img-shipping"
+                  src="../../../../assets/images/ic_shipping.png"
+                  srcset="../../../assets/images/ic_shipping.png 18w,
+                  ../../../assets/images/ic_shipping@2x.png.png.png 36w"
+                  alt="Icono imagen de envio"  appImage />
+            </span>
+          </p>
+          <p class="p-descr" (click)="viewProductDetail(product)">{{ product.description }}</p>
+        </span>
+        <span class="p-city">
+          <p>{{ product.city }}</p>
+        </span>
+      </span>
+    </div>
+  </div>  
+</div>

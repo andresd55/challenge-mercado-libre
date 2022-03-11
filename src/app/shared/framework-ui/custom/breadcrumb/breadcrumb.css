@@ -1,0 +1,32 @@
+.bread-crumb  {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 0px;
+}
+
+.bread-crumb li {
+    cursor: pointer;
+    
+}
+
+.bread-crumb-item {
+    color: #6c6c6c;
+    font-weight: 500;
+}
+.bread-crumb-item.active {
+    font-weight: bold;
+}
+
+.bread-crumb-item + .bread-crumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    content: "\e932";
+    font-family: 'primeicons';
+    font-weight: 500;
+}
+

@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <div class="row w-100">
+    <div class="col-12 col-md-10 offset-md-1 pr-0">
+      <div class="row ml-0">
+        <div class="col-3 col-sm-2 col-lg-1">
+          <img width="53px" height="36px" src="../../../assets/images/Logo_ML.png"
+          alt="Logo MercadoLibre" class="logo" 
+          srcset="../../../assets/images/Logo_ML.png 53w,
+          ../../../assets/images/Logo_ML@2x.png.png.png 106w"
+          appImage />
+        </div>
+        <div class="col-9 col-sm-10 col-lg-11 pr-0">
+          <app-search-selector
+            placeholder="Nunca dejes de buscar"
+            icon="pi pi-search"
+            (clickEvent)="onSubmitFilterSearch($event)"
+          ></app-search-selector>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
