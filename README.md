@@ -1,5 +1,5 @@
 
-## Descrpción del proyecto  👨🏻‍💻 
+## Descripción del proyecto  👨🏻‍💻 
 Este proyecto fue desarrollado como desafío técnico para un proceso de selección con Mercado Libre.
 
  <img src="https://play-lh.googleusercontent.com/cDtLokndC3vu7f77UgNfT5ui8pSagdhtmFvJzFhdWk0C-cVLTpFnIxN_NHi-Nc8XFFo" alt="Logo Mercado Libre" width="20%"  /> 
