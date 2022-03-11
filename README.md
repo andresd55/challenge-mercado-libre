@@ -37,7 +37,7 @@ El proyecto cuenta con la siguiente cobertura de codigo:
 
 Se realiza reporte metricas de calidad utilizando la herramienta de Google Chrome `Lighthouse`:
 
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/lighthouse.jpg" alt="lighthouse" width="50%"  /> 
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/lighthouse.jpg" alt="lighthouse" width="50%"  /> 
 
 ## Mas información
 Cualquier duda referente a la plantilla se puede comunicar con
