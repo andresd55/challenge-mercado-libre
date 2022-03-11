@@ -17,7 +17,7 @@ Para la ejecución del proyecto se recomienda el uso de la herramienta  [Visual 
 
 Al instalar esta aplicación es necesario ejecutar el comando `npm i`  (o en su defecto) `npm install`, el cual realiza la instalación de las librerias contenidas en el archivo `package.json` en la carpeta `node_modules`.
 
-Una vez instaladas las librerias ejecute el comando `ng serve --o` o `npm start` para ejecutarlo de manera local, el cual abrira su navegador predeterminado con la ruta `http://localhost:4200/` y podra interactuar con la aplicación:
+Una vez instaladas las librerias ejecute el comando `ng serve --o` o `npm start` para ejecutarlo de manera local, el cual abrira su navegador predeterminado con la ruta `http://localhost:4200/` y podra interactuar con la aplicación, la aplicación es totalmente responsive es decir que se adapta a cualquier tipo de dispositivo:
 
  <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/demo.gif" alt="demo" width="100%"  />  
 
