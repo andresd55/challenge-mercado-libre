@@ -19,25 +19,25 @@ Al instalar esta aplicación es necesario ejecutar el comando `npm i`  (o en su 
 
 Una vez instaladas las librerias ejecute el comando `ng serve --o` o `npm start` para ejecutarlo de manera local, el cual abrira su navegador predeterminado con la ruta `http://localhost:4200/` y podra interactuar con la aplicación:
 
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/demo.gif" alt="demo" width="100%"  />  
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/demo.gif" alt="demo" width="100%"  />  
 
 ## Ejecución de Test Unitarios
 
 Ejecute el comando `ng test` para la ejecución de test unitarios a través de [Karma](https://karma-runner.github.io), el cual abrira un reporte de los test realizados como se muestra en la siguiente imagen:
 
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/unitTest.jpg" alt="unit test" width="50%"  /> 
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/unitTest.jpg" alt="unit test" width="50%"  /> 
 
 El proyecto cuenta con la siguiente cobertura de codigo:
 
 
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/cobertura1.jpg" alt="cobertura 1" width="49%"  />  
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/cobertura2.jpg" alt="cobertura 2" width="50%"  /> 
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/cobertura1.jpg" alt="cobertura 1" width="49%"  />  
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/cobertura2.jpg" alt="cobertura 2" width="50%"  /> 
  
 ## Buenas practicas de desarrollo
 
 Se realiza reporte metricas de calidad utilizando la herramienta de Google Chrome `Lighthouse`:
 
- <img src="https://github.com/andresd55/challenge-mercado-libre/blob/master/lighthouse.jpg" alt="lighthouse" width="50%"  /> 
+ <img src="https://raw.githubusercontent.com/andresd55/challenge-mercado-libre/main/lighthouse.jpg" alt="lighthouse" width="50%"  /> 
 
 ## Mas información
 Cualquier duda referente a la plantilla se puede comunicar con
